@@ -1,0 +1,90 @@
+*{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    scroll-behavior: smooth; 
+} 
+ 
+body{ 
+    font-family: 'Prompt',sans-serif; 
+    background-color: rgb(113, 103, 153); 
+    color: rgb(73, 89, 133); 
+} 
+ 
+h1,h2,h3{ 
+    margin-top: 1rem; 
+    font-weight: 700px; 
+} 
+ 
+a{ 
+    text-decoration: none; 
+    color: rgb(128, 67, 128); 
+} 
+ 
+ul{ 
+    list-style: none; 
+} 
+ 
+.main-header{ 
+    background-color: rgb(170, 76, 91); 
+    padding: 1rem; 
+    /* max-width: 1100px; */ 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+} 
+ 
+.navbar{ 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    max-width: 1100px; 
+    margin: auto; 
+    padding: 0 2rem; 
+} 
+ 
+.logo{ 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+} 
+ 
+.nav-links{ 
+    display: flex; 
+    gap: 2rem; 
+} 
+ 
+.nav-links a:hover{ 
+    color: rgb(0, 0, 0); 
+} 
+ 
+.nav-links a{ 
+    transition: color 0.3s ease; 
+} 
+ 
+.hero-section{ 
+    height: 90vh; 
+    display: flex; 
+    justify-content: center; 
+    background-color: gainsboro; 
+    align-items: center; 
+    text-align: center; 
+} 
+ 
+.hero-content h1{ 
+    font-size: 3rem; 
+    margin-bottom: 1rem; 
+} 
+ 
+.btn{ 
+    background-color: rgb(0, 0, 0); 
+    padding: 0.5rem 1rem; 
+    display: inline-block; 
+    margin-top: 1rem; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+} 
+ 
+.btn:hover{ 
+    background-color: rgb(65, 94, 89); 
+} 
+ 
